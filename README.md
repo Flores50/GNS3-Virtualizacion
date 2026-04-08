@@ -19,6 +19,8 @@ Para comprobar si la virtualización está activa en el sistema:
 3. Seleccionar **CPU**
 4. Verificar que el estado indique: **"Virtualización: Habilitado"**
 
+![Topología GNS3](img/gns3_03.png)
+
 ---
 
 ## 2. GNS3 VM: El Motor de Simulación
@@ -39,9 +41,8 @@ Para un funcionamiento estable:
 - CPU: 2 a 4 núcleos
 - RAM: 4 GB (mínimo recomendado)
 
-Esto debe equilibrarse para no afectar el rendimiento del sistema operativo host (Windows 11).
-
 ---
+![Topología GNS3](img/Captura.png)
 
 ## 3. Integración con VirtualBox
 
@@ -61,7 +62,7 @@ Esto es esencial en GNS3 porque:
 
 Configuración recomendada:
 - Modo promiscuo: **Permitir todo**
-
+![Topología GNS3](img/0VexJ.png)
 ---
 
 ## 4. Integración con VMware ESXi
@@ -83,8 +84,7 @@ En ESXi, los **vSwitches** controlan el tráfico de red de las máquinas virtual
 - **Promiscuous Mode:** Permitir  
 - **MAC Address Changes:** Permitir  
 - **Forged Transmits:** Permitir  
-
-Estas configuraciones son necesarias para permitir la simulación realista del tráfico de red, especialmente en escenarios donde se manipulan direcciones MAC o se utilizan múltiples dispositivos virtuales.
+![Topología GNS3](img/wmware-esxi.png)
 
 ---
 
@@ -97,3 +97,4 @@ Estas configuraciones son necesarias para permitir la simulación realista del t
 | Error de conexión (puerto 3080) | Firewall bloqueando tráfico | Crear regla para permitir puertos 3080 y 5000-10000 |
 
 ---
+
