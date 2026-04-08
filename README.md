@@ -22,6 +22,7 @@ Para comprobar si la virtualización está activa en el sistema:
 ![Topología GNS3](img/gns3_03.png)
 
 ---
+Desde mi punto de vista, entender estas tecnologías es importante porque permite aprovechar mejor el hardware y evitar conflictos al trabajar con herramientas de virtualización.
 
 ## 2. GNS3 VM: El Motor de Simulación
 
@@ -43,6 +44,7 @@ Para un funcionamiento estable:
 
 ---
 ![Topología GNS3](img/Captura.png)
+En mi experiencia, es fundamental que KVM esté activo, ya que sin esto el rendimiento de los laboratorios se ve muy afectado.
 
 ## 3. Integración con VirtualBox
 
@@ -64,6 +66,7 @@ Configuración recomendada:
 - Modo promiscuo: **Permitir todo**
 ![Topología GNS3](img/0VexJ.png)
 ---
+Considero que esta configuración es clave, ya que sin el modo promiscuo no se puede simular correctamente el comportamiento de la red.
 
 ## 4. Integración con VMware ESXi
 
@@ -87,6 +90,7 @@ En ESXi, los **vSwitches** controlan el tráfico de red de las máquinas virtual
 ![Topología GNS3](img/vmware-esxi.png)
 
 ---
+Esto demuestra que usar un entorno remoto puede mejorar el rendimiento cuando el equipo local tiene limitaciones.
 
 ## 5. Troubleshooting (Solución de Problemas)
 
@@ -98,3 +102,10 @@ En ESXi, los **vSwitches** controlan el tráfico de red de las máquinas virtual
 
 ---
 
+## Diagrama de Arquitectura
+
+![Diagrama GNS3](img/Pantalla.png)
+
+## Conclusión
+
+En esta investigación pude comprender la importancia de la virtualización en entornos de redes, así como el funcionamiento de herramientas como GNS3 junto con VirtualBox y ESXi. Aprendí que una correcta configuración del sistema es fundamental para evitar errores y mejorar el rendimiento. Además, identificar problemas y aplicar soluciones permite desarrollar habilidades prácticas importantes en el área de redes y ciberseguridad.
