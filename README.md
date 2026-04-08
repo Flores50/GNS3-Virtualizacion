@@ -84,7 +84,7 @@ En ESXi, los **vSwitches** controlan el tráfico de red de las máquinas virtual
 - **Promiscuous Mode:** Permitir  
 - **MAC Address Changes:** Permitir  
 - **Forged Transmits:** Permitir  
-![Topología GNS3](img/wmware-esxi.png)
+![Topología GNS3](img/vmware-esxi.png)
 
 ---
 
